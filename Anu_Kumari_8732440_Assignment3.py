@@ -125,7 +125,7 @@ class Calculate:
     elif self.pantsAttributes[1] == 3:
       pantscolor = "Blue"
     
-    
+    # Calculating total cost
     cost = self.calcTotal()
     # Printing Summary
     print("\n")
@@ -137,7 +137,9 @@ class Calculate:
     print("Total cost: $", cost)
     print("------------------------------------------")
   
-
+# Making object for the class Calculate
 objectCalculate = Calculate()
+
+# Calling the function summary through object
 objectCalculate.summary()
 
