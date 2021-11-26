@@ -67,6 +67,7 @@ class Calculate:
     print("Are you a Student or a Senior Citizen? \nPress Y if yes\nPress N for No")
     studentOrSenCitz = input()
 
+    # Logic for Student/Senior Citizen Discount
     if studentOrSenCitz == "Y" or studentOrSenCitz == "y":
       finalPriceshirt = totalPriceshirt - (totalPriceshirt*0.1)
       finalPricePants = totalPricePants - (totalPricePants*0.1)
